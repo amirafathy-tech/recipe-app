@@ -12,6 +12,10 @@
 //import java.util.List;
 //import java.util.Optional;
 //
+
+//import lombok.extern.slf4j.Slf4j;
+//
+//@Slf4j
 //@Component
 //public class RecipeBootstrap  implements ApplicationListener<ContextRefreshedEvent> {
 //
@@ -28,6 +32,7 @@
 //    @Override
 //    public void onApplicationEvent(ContextRefreshedEvent event) {
 //        recipeRepository.saveAll(getRecipes());
+//       log.debug("Loading Bootstrap Data");
 //    }
 //
 //    private List<Recipe> getRecipes() {
