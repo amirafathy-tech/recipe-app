@@ -11,6 +11,8 @@
 //import java.util.ArrayList;
 //import java.util.List;
 //import java.util.Optional;
+
+//import org.springframework.transaction.annotation.Transactional;
 //
 
 //import lombok.extern.slf4j.Slf4j;
@@ -30,6 +32,9 @@
 //    }
 //
 //    @Override
+
+
+//      @Transactional
 //    public void onApplicationEvent(ContextRefreshedEvent event) {
 //        recipeRepository.saveAll(getRecipes());
 //       log.debug("Loading Bootstrap Data");
